@@ -25,5 +25,11 @@ public class Main {
         System.out.println("subtract: " + subtract);
         System.out.println("Multiply: " + multiply);
         System.out.println("Divide: " + divide);
+
+        Book book = Book.inputBookData();
+        System.out.println(book);
+
+        Car car = Car.inputCarData();
+        System.out.println(car);
     }
 }
