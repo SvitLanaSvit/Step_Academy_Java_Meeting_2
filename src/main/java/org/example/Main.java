@@ -10,6 +10,7 @@ public class Main {
 
         Country country = Country.inputCountryData();
         System.out.println(country);
+        //
 
         Fraction fraction1 = Fraction.inputFraction();
         Fraction fraction2 = Fraction.inputFraction();
