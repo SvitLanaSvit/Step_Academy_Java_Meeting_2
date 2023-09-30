@@ -11,6 +11,8 @@ public class Person {
     private String country;
     private String homeAddress;
 
+    private static int numberOfPersons = 0;
+
     public Person() {
     }
 
@@ -28,6 +30,12 @@ public class Person {
         this.city = town;
         this.country = land;
         this.homeAddress = homeAddress;
+
+        numberOfPersons++;
+    }
+
+    public static int getNumberOfPersons(){
+        return numberOfPersons;
     }
 
     public String getFirstname() {
