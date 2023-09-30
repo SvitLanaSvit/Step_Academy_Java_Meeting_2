@@ -2,8 +2,11 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        Person person = Person.inputPersonData();
-        System.out.println(person);
+        Person person1 = Person.inputPersonData();
+        Person person2 = Person.inputPersonData();
+        System.out.println(person1);
+        System.out.println(person2);
+        System.out.println(Person.getNumberOfPersons());
 
         City city  = City.inputCityData();
         System.out.println(city);
